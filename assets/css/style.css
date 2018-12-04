@@ -1,6 +1,6 @@
 @font-face {
     font-family: Greasy;
-    src: url(//assets/fonts/GreasySpoon-Regular.otf) format("opentype");;
+    src: url(../assets/fonts/GreasySpoon-Regular.otf) format("opentype");;
 }
 
 .navbar-brand {
