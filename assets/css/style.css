@@ -1,5 +1,38 @@
+@font-face {
+    font-family: Greasy;
+    src: url(/assets/fonts/GreasySpoon-Regular.otf);
+}
+
+.navbar-brand {
+    font-family: Greasy;
+    font-size: 40px;
+}
+
+.display-4 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+/* Navbar */
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2.8rem;
     padding-left: 2.8rem;
     padding-bottom: 10px;
   }
+
+/* Jumbotron with Banner */
+.jumbotron {
+    background-image: url(../imgs/bg1.jpg);
+    background-position: center center;
+    height: 75vh;
+    margin-bottom: 0px;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 15px;
+}
+
+.jumbo-container {
+    margin-left: 0;
+}
