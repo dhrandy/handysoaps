@@ -26,9 +26,9 @@
     background-position: center center;
     height: 75vh;
     margin-bottom: 0px;
-    position: relative;
+    /* position: relative; */
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     color: white;
     padding-top: 15px;
 }
@@ -54,6 +54,10 @@ h1, h4 {
     font-family: 'Courgette', cursive;
 }
 
+h4 {
+    margin-top: 15px;
+}
+
 .soap {
     height: 145px;
 }
@@ -61,4 +65,41 @@ h1, h4 {
 .title {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.row2 {
+    margin-top: 40px;
+}
+
+.dancing-font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.icons {
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+#quote {
+    background-color: antiquewhite;
+}
+
+#products {
+    margin-bottom: 30px;
+}
+
+#promise {
+    background-color: #292624;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    color: white;
+    /* border-top: 2px solid rgb(194, 194, 194); */
+}
+
+footer {
+    color: white;
+    background-color: #292624;
 }
