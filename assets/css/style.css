@@ -99,6 +99,30 @@ h4 {
     /* border-top: 2px solid rgb(194, 194, 194); */
 }
 
+.logo {
+    width: 133px;
+    padding: 20px;
+}
+
+.social-icons {
+    width: 50px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.border {
+    height: 1px;
+    background-color: gray;
+    width:  150px;
+    margin: auto;
+}
+
+/* .social-icons-row {
+    border-top: 1px solid gray;
+    border-top-width: 100px;
+} */
+
 footer {
     color: white;
     background-color: #292624;
