@@ -67,7 +67,7 @@ h4 {
 }
 
 .title {
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -102,7 +102,6 @@ h4 {
 /* Promise Section */
 #promise {
     background-color: #292624;
-    padding-top: 25px;
     padding-bottom: 40px;
     color: white;
     /* border-top: 2px solid rgb(194, 194, 194); */
