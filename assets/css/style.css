@@ -13,13 +13,16 @@
     font-size: 40px;
 }
 
+/* ///////////////////////////////////////////////////// */
 /* Navbar */
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2.8rem;
     padding-left: 2.8rem;
     padding-bottom: 10px;
   }
+  /* ///////////////////////////////////////////////////// */
 
+  /* ///////////////////////////////////////////////////// */
 /* Jumbotron with Banner */
 .jumbotron {
     background-image: url(../imgs/bg1.jpg);
@@ -36,6 +39,7 @@
 .jumbo-container {
     margin-left: 0;
 }
+/* ///////////////////////////////////////////////////// */
 
 .quote {
     font-family: 'Pacifico', cursive;
@@ -83,20 +87,39 @@ h4 {
     padding-bottom: 20px;
 }
 
+/* ///////////////////////////////////////////////////// */
+/* Quote Section */
 #quote {
     background-color: antiquewhite;
 }
-
+/* ///////////////////////////////////////////////////// */
+/* Products Section */
 #products {
     margin-bottom: 30px;
 }
 
+/* ///////////////////////////////////////////////////// */
+/* Promise Section */
 #promise {
     background-color: #292624;
     padding-top: 25px;
     padding-bottom: 40px;
     color: white;
     /* border-top: 2px solid rgb(194, 194, 194); */
+}
+/* ///////////////////////////////////////////////////// */
+/* Footer CSS */
+footer {
+    color: white;
+    background-color: #292624;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: gray;
 }
 
 .logo {
@@ -111,19 +134,23 @@ h4 {
     padding-top: 20px;
 }
 
-.border {
+.border-1 {
     height: 1px;
     background-color: gray;
     width:  150px;
     margin: auto;
 }
 
-/* .social-icons-row {
-    border-top: 1px solid gray;
-    border-top-width: 100px;
-} */
-
-footer {
-    color: white;
-    background-color: #292624;
+.border-2 {
+    height: 1px;
+    background-color: gray;
+    width:  70px;
+    margin: auto;
 }
+
+#copyright {
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+/* ///////////////////////////////////////////////////// */
